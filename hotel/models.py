@@ -16,11 +16,12 @@ class Type(models.Model):
         return self.name
 
 class Room(models.Model):
-    number = models.CharField(max_length = 100, verbose_name = 'Número de habitación')
+    number = models.IntegerField(verbose_name = 'Número de habitación',unique = True)
     description = models.TextField(verbose_name = 'Descripción')
     image = models.ImageField("Imagen", upload_to='hotel', blank=True)
+    price = models.IntegerField(verbose_name = 'Precio') 
     created_on=models.DateTimeField(auto_now_add=True)
-    restaurant = models.ForeignKey('Type', on_delete=models.CASCADE)
+    type = models.ForeignKey('Type', on_delete=models.CASCADE)
     updated_on= models.DateTimeField(auto_now=True)
 
     class Meta:
@@ -29,4 +30,4 @@ class Room(models.Model):
         verbose_name_plural='Habitaciones'
 
     def __str__(self): 
-        return 'R:{} -> T: {}'.format(self.number, self.type.name)
+        return 'R:{} -> T:{}'.format(self.number, self.type.name)
