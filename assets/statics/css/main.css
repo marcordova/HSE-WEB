@@ -1,0 +1,168 @@
+body{
+    background: skyblue
+}
+h1{
+	color: black;
+	font-size: 40px;
+	margin-left: -150px;
+	margin-top: 50px;
+}
+h2{
+	color: black;
+
+}
+header div{
+	display: inline-block;
+	width: 40%;
+	vertical-align: top;
+}
+header div img{
+	width: 150px;
+}
+#inicio{
+	margin-left: 100px;
+	margin-top: 50px;
+	margin-bottom: 50px
+}
+ul li{
+	display: inline-block;
+}
+section{
+	margin-bottom: 50px
+}
+.weaper{
+	width: 1050px;
+	margin: 0px auto;
+
+}
+ul li a{
+	 color: #000; 
+	 text-decoration: none;
+	 background:#bb923c;
+	 border-right: 2px solid #bb923c;
+	 padding-right: 10px;
+	 padding: 10px;
+	 font-size: 20px
+}
+nav{
+	margin-top: -60px; margin-left:710px;text-align: center
+}
+.image{
+	display: inline-block;
+	vertical-align: top ;
+	text-align: center;
+	color: black;
+	font-size: 20px
+}
+.image img{
+	width: 450px;	
+}
+.image p strong{
+	color: #000; font-size: 20px; text-align: center;  
+}
+.habitacion{
+	display: inline-block;
+	margin-top: 50px;
+	color: #bb923c;
+	font-size: 20px;
+}
+.habitacion img:last-child{
+	width: 450px;	
+}
+.habitacion img{
+	vertical-align: top;
+	width: 70%;
+}
+.habitacion p{
+	margin-left: 210px;
+	position: absolute;
+	margin-top: 50px;
+}
+.field{
+	margin-bottom: 10px;
+	margin-top: 20px;
+	font-weight: bold;
+	font-size: 20px;
+	display: inline-block;
+	vertical-align: top
+}
+.field img{
+	width: 350px;
+	margin-left: 130px;
+	margin-top: -50px;
+}
+.field div{
+	margin-bottom: 20px;
+}	
+.field input{
+	padding: 5px;
+	border-radius: 5px;
+	font-family: arial;
+	font-weight: bold;
+	background-size: 32px 32px;
+	background: #bb923c;
+	border: 2px solid #000;
+}
+.field div input{
+	margin-left: 145px;
+}
+.field div+div input{
+	margin-left: 55px;
+}
+.field div+div+div input{
+	margin-left: 140px;
+}
+.field div+div+div+div input{
+	padding-bottom: 80px;
+	padding-right: 10px;
+}
+.field span{
+	color: #9c9c9c;
+	font-size: 12px;
+	float: right;
+}
+.guardar{
+	border: 2px solid #000;
+	padding: 10px;
+	border-radius: 5px;
+	font-family: arial;
+	font-weight: bold;
+	font-size: 20px;
+	background: #bb923c;
+	margin-top: 20px;
+	margin-left: 20px
+}
+video{
+	margin-left: 250px;
+	width:520px ;
+}
+footer{
+	margin-bottom: 10px;
+	margin-top: 100px;
+	font-weight: bold;
+	font-size: 20px;
+	background: #bb923c;
+}
+footer div{
+	display: inline-block;
+	font-family: arial;
+	width: 30%
+}
+footer a img{
+	width: 50px
+}
+ul li ul{
+	display: none;
+	padding-left: 0px;
+	margin-top: 10px;
+	position: absolute;
+}
+ul li ul li{
+	display: block;
+}
+ul li:hover ul {display: block;}
+ul li ul li a{
+	display: block;
+	padding: 10px
+	border: 0px;
+}
